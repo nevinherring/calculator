@@ -3,7 +3,7 @@ const screen = docuement.querySelector('.screen');
 const equalBtn = docuement.querySelector('.btn-equal');
 const clearBtn = docuement.querySelector('.btn-clear');
 
-for(let i = 0; i < btns.length: i++){
+for(let i = 0; i < btns.length; i++){
     btns[i].addEventListener('click', function(){
         let number = btns[i].getAttribute('data-num');
         screen.value += number;
